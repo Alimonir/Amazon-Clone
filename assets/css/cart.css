@@ -175,6 +175,10 @@
 }
 
 @media only screen and (max-width:900px) {
+    .carCart{
+        display: flex;
+        flex-direction: column;
+    }
     .deliveryLocation {
         display: none;
         text-wrap: nowrap;
@@ -213,6 +217,10 @@
 
 
 @media only screen and (max-width:600px) {
+    .carCart{
+        display: flex;
+        flex-direction: column;
+    }
     .deliveryLocation {
         display: none;
         text-wrap: nowrap;

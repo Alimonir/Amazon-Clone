@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/product.css">
+        <link rel="stylesheet" href="assets/css/media.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <title>Product Page</title>
+    </head>
+    <body style="background-color: #fff">
+        <nav>
+            <a href="http://">
+                <img src="assets/images/amazon_logo.png"
+                    width="100">
+            </a>
+            <div class="deliveryLocation">
+                <img src="assets/images/location_icon.png">
+                <p>Deliver to Egypt</p>
+            </div>
+            <div class="navSearch">
+                <div class="nav-search-gategory">
+                    <p>All</p>
+                    <img src="assets/images/dropdown_icon.png" alt
+                        height="12px">
+                </div>
+                <input type="search" placeholder="Search For Products" name
+                    id="searchBar">
+                <div id="searchIcon">
+                    <img src="assets/images/search_icon.png" alt
+                        height="25px">
+                </div>
+            </div>
+            <div class="language">
+                <img src="assets/images/us_flag.png" height="25px"
+                    width="25px">
+                <span>EN</span>
+                <img src="assets/images/dropdown_icon.png" alt
+                    width="8px">
+            </div>
+            <div class="sign">
+                <p> <a href="/signpage.html">Hello,sign in</a> </p>
+                <h3>Accounts
+                    & Lists <img
+                        src="assets/images/dropdown_icon.png" alt
+                        width="8px"></h3>
+            </div>
+            <div class="returnOrders">
+                <p>Returns</p>
+                <h3>& Orders</h3>
+            </div>
+            <a href="/signpage.html" class="mobileUserIcon"
+                style="display: none;">
+                <img src="assets/images/user.png" alt>
+            </a>
+            <a href="cartPage.html">
+                <div class="cart">
+                    <h2>Your Cart</h2>
+                    <div id="cart-items"></div>
+                    <div class="cart-summary">
+                        Total: $<span id="cart-total">0</span>
+                    </div>
+                </div>
+            </a>
+        </nav>
+        <div class="nav-bottom">
+            <div>
+                <img src="assets/images/menu_icon.png" alt
+                    width="25px">
+                <span>All</span>
+            </div>
+            <p>Today's Deals</p>
+            <p>Customer Service</p>
+            <p>Registry</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+        </div>
+        <!-- finshed nav menu -->
+        <p class="headNavigator">Video Games > PC > Accessories > HeadSet</p>
+        <div class="product-display">
+            <div class="product-d-image">
+                <div class="product-icons">
+                    <img src="assets/images/product_img.jpg" alt>
+                    <img src="assets/images/product_img.jpg" alt>
+                    <img src="assets/images/product_img.jpg" alt>
+                    <img src="assets/images/product_img.jpg" alt>
+                    <img src="assets/images/product_img.jpg" alt>
+                </div>
+                <div class="product-main-image">
+                    <img src="assets/images/product_img.jpg" alt>
+                </div>
+
+                <div class="product-d-details">
+                    <p class="product-title">
+                        Classroom Headphones Bulk 5 Pack, Student On Ear Color
+                        Varieties, Comfy Swivel Earphones for Library, School,
+                        Airplane, Kids, for Online Learning and Travel, Noise
+                        Stereo Sound 3.5mm Jack (Black)
+                    </p>
+                    <p class="brand-store">Visit the BENGOO store</p>
+                    <div class="product-rating">
+                        <div>4.3 <img
+                                src="assets/images/rating_img.png"
+                                height="20px" alt>
+                            <p>104,185 ratings | search this page</p>
+                        </div>
+                        <p>#1 Best Seller in PC Game HeadSets</p>
+                        <h5>10k+ bought in past month</h5>
+                        <hr>
+                    </div>
+                    <div class="product-price">
+                        <div>
+                            <p>-35%</p>
+                            <h1>$25.99</h1>
+                        </div>
+                        <h5>List Price $39.99</h5>
+                        <p>Get Fast, Free Shipping with Amazon Prime</p>
+                        <p>Free Returns</p>
+                    </div>
+                    <div class="prodcut-color-selection">
+                        <p>Color : <b>Blue</b></p>
+                        <div class="product-color-oprtions">
+                            <div class="option">
+                                <img
+                                    src="assets/images/product_img.jpg"
+                                    alt width="60">
+                                <p>Black</p>
+                            </div>
+                            <div class="option">
+                                <img
+                                    src="assets/images/product_img.jpg"
+                                    alt width="60">
+                                <p>Green</p>
+                            </div>
+                            <div class="option">
+                                <img
+                                    src="assets/images/product_img.jpg"
+                                    alt width="60">
+                                <p>Pink</p>
+                            </div>
+                            <div class="option">
+                                <img
+                                    src="assets/images/product_img.jpg"
+                                    alt width="60">
+                                <p>Blue</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <p><b>Brand</b></p> <p>BENGOO</p>
+                        <p><b>Model Name</b></p> <p>G9000</p>
+                        <p><b>Color</b></p> <p>Blue</p>
+                        <p><b>Form Factor</b></p> <p>Over Ear</p>
+                        <p><b>Connectivity Technology</b></p> <p>Wired</p>
+                    </div>
+                    <hr>
+                    <div class="product-description">
+                        <h1>About this item</h1>
+                        <ul>
+                            <li>AMAZING SOUND, AT BULK RATES- Sonitum brings a
+                                value-packed set of student headphones that are
+                                colorful, comfy and deliver HQ sound on all
+                                smart devices. They are universally compatible
+                                thanks to their 3.5mm jack and make the perfect
+                                choice when in quiet environments or when
+                                travelling.</li>
+                            <li> DESIGNED FOR COMFORT- Our earphones come with a
+                                lightweight, adjustable design that delivers a
+                                perfect fit for both adults and kids, soft ear
+                                cushions for long-wear comfort as well as a
+                                bendable material construction which makes for
+                                greater durability. Furthermore, all our
+                                headphones feature swivel cups so that you can
+                                stack and store them easily!</li>
+                            <li>MADE TO LAST- Sonitum is a US based brand that
+                                pays attention to detail and combines affordable
+                                prices with high-end quality to create
+                                unbeatable offers. Our headphones all come with
+                                extra durable materials & a thick wire that will
+                                give you extra mileage even when they are
+                                constantly used on a daily basis by kids.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product-d-purchase">
+                <div class="product-price">
+                    <div>
+                        <h1>$25.99</h1>
+                    </div>
+                    <h5>$105.59 Shipping & Import Fees Deposit to Egypt</h5>
+                    <p>Delivery Sunday, October 20. Order within <span>22 hrs 9
+                            mins</span> </p>
+                    <p>Or fastest delivery Monday, October 14</p>
+                    <div class="dilver">
+                        <p><img
+                                src="assets/images/location_icon_dark.png"
+                                alt width="20"> Deliver in Egypt</p>
+                    </div>
+                    <p color='green'>In Stock</p>
+                    <input type="number" name id placeholder="Quantity : 1">
+                </div>
+                <div class="buy">
+
+                    <button id="addToCart"
+                        onclick="addToCart('Classroom Headphones',25.99)">Add
+                        to Cart</button>
+                    <button id="buyNow" onclick="showAmazonStyleAlert()">Buy
+                        Now</button>
+                </div>
+                <hr>
+                <div class="product-delivery-info">
+                    <p><b>Ships from</b></p> <p>Amazon</p>
+                    <p><b>Sold by</b></p> <p>Rely On Us</p>
+                    <p><b>Returns</b></p> <p>30 days</p>
+                    <p><b>Packaging</b></p> <p>Ships in product packing</p>
+                    <p><b>Payment</b></p> <p>Secure transaction</p>
+                </div>
+                <hr>
+                <button id="AddToList">Add To List</button>
+            </div>
+        </div>
+
+        <div class="products-slider">
+            <h2>Products related to this item</h2>
+            <div class="productsScroll">
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="assets/images/product2-1.jpg" alt>
+                    </div>
+                    <div class="product-offer">
+                        <p>27% Offer</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">$ <span>14.99</span> List
+                        Price:$19.95</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="assets/images/product2-2.jpg" alt>
+                    </div>
+                    <div class="product-offer">
+                        <p>27% Offer</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">$ <span>14.99</span> List
+                        Price:$19.95</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="assets/images/product2-3.jpg" alt>
+                    </div>
+                    <div class="product-offer">
+                        <p>27% Offer</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">$ <span>14.99</span> List
+                        Price:$19.95</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="assets/images/product2-4.jpg" alt>
+                    </div>
+                    <div class="product-offer">
+                        <p>27% Offer</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">$ <span>14.99</span> List
+                        Price:$19.95</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="assets/images/product2-5.jpg" alt>
+                    </div>
+                    <div class="product-offer">
+                        <p>27% Offer</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">$ <span>14.99</span> List
+                        Price:$19.95</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="assets/images/product2-6.jpg" alt>
+                    </div>
+                    <div class="product-offer">
+                        <p>27% Offer</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">$ <span>14.99</span> List
+                        Price:$19.95</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="assets/images/product2-7.jpg" alt>
+                    </div>
+                    <div class="product-offer">
+                        <p>27% Offer</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">$ <span>14.99</span> List
+                        Price:$19.95</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="assets/images/product2-8.jpg" alt>
+                    </div>
+                    <div class="product-offer">
+                        <p>27% Offer</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">$ <span>14.99</span> List
+                        Price:$19.95</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="assets/images/product2-9.jpg" alt>
+                    </div>
+                    <div class="product-offer">
+                        <p>27% Offer</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">$ <span>14.99</span> List
+                        Price:$19.95</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="assets/images/product2-10.jpg"
+                            alt>
+                    </div>
+                    <div class="product-offer">
+                        <p>27% Offer</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">$ <span>14.99</span> List
+                        Price:$19.95</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="assets/images/product2-11.jpg"
+                            alt>
+                    </div>
+                    <div class="product-offer">
+                        <p>27% Offer</p> <span>Deal</span>
+                    </div>
+                    <p class="product-price">$ <span>14.99</span> List
+                        Price:$19.95</p>
+                    <h4>this product is the best for you</h4>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer>
+            <img src="assets/images/amazon_logo.png">
+            <p>©1996–2024, Amazon.com, Inc. or its affiliates</p>
+        </footer>
+        <!-- end footer -->
+        <script src="/assets/js/product.js"></script>
+    </body>
+</html>
